@@ -1,4 +1,4 @@
-# C언어 공부 가이드 (간략 + 표 정리)
+# C언어 공부 가이드 (간략 + 표 + 이미지)
 
 ## 1. 기본 문법과 입출력
 
@@ -10,6 +10,12 @@
 | 입출력     | 화면 출력 및 입력              | `printf()`, `scanf()`       |
 | 주석       | 코드 내 설명                   | `//`, `/* */`               |
 
+### 자료형 예시
+
+![자료형 예시](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/C_data_types.svg/400px-C_data_types.svg.png)
+
+---
+
 ## 2. 제어문
 
 | 제어문 종류 | 설명                         | 예시 구문                   |
@@ -18,16 +24,34 @@
 | 반복문      | 반복 실행                    | `for`, `while`, `do-while`  |
 | 분기문      | 반복문/조건문 내 흐름 제어    | `break`, `continue`          |
 
+### 제어문 흐름도 예시
+
+![제어문 흐름도](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Flowchart_example.svg/400px-Flowchart_example.svg.png)
+
+---
+
 ## 3. 함수와 배열
 
 - 함수: 선언, 정의, 매개변수, 반환값  
 - 배열: 1차원 배열, 문자열 (`char` 배열)
+
+### 함수 호출 다이어그램
+
+![함수 호출](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Call_stack_1.svg/400px-Call_stack_1.svg.png)
+
+---
 
 ## 4. 포인터 기본
 
 - 포인터 선언과 사용  
 - 주소 연산자(`&`), 간접 참조(`*`)  
 - 포인터와 배열 관계
+
+### 포인터 개념 그림
+
+![포인터](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/C_Pointer_and_reference_diagram.svg/400px-C_Pointer_and_reference_diagram.svg.png)
+
+---
 
 ## 5. 구조체와 파일 입출력
 
